@@ -6,6 +6,7 @@
 
 body {
     display: grid;
+    background: #1a1a1a;
     grid-template-areas:
         "header header"
         "nav nav"
@@ -20,16 +21,16 @@ body {
 
 header {
     grid-area: header;
-    background: green;
-    color: white;
+    background: rgb(59, 1, 1);
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
 
 
 nav {
     grid-area: nav;
-    background: #cfd8c3;
-    padding: 10px;
+    background: #200000;
+    padding: 15px;
 }
 nav ul {
   display: flex; 
@@ -41,26 +42,22 @@ nav ul li a {
   text-decoration: none; 
   color: #333; 
   font-weight: bold; 
-  padding: 5px 10px; 
-  transition: background-color 0.3s, color 0.3s; 
+  padding: 5px 10px;  
 }
-
-
 main {
     grid-area: main;
-    background: #ddd;
+    background: #220000;
     padding: 15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 main section {
-    background: #fff;
+    background: #270000;
     padding: 15px;
 }
-
 article {
-    background: #bbb;
+    background: #270000;
     padding: 10px;
 }
 
@@ -68,13 +65,21 @@ article {
 aside {
     position: relative;
     grid-area: aside;
-    background: #eee;
     padding: 15px;
     padding-left: 70%;
 }
+button {
+    background: rgb(59, 1, 1);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 footer {
     grid-area: footer;
-    background: green;
-    color: white;
+    background: rgb(59, 1, 1);
+    color: rgb(0, 0, 0);
     padding: 15px;
 }
