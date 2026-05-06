@@ -1,0 +1,33 @@
+#Formulario{
+    max-width: 400px;
+    padding: 20px;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 6px auto;
+    display: inline-block;
+    border: 1px solid rgb(59, 1, 1);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    padding: 14px 20px;
+    background-color: rgb(53, 1, 1);
+    color: blanchedalmond;
+    width: 100%;
+    clear: both;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px auto;
+}
+legend{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+}
